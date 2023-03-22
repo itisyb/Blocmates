@@ -749,6 +749,8 @@ body[data-theme="dark"] {
     background-color: rgba(var(--aa-input-background-color-rgb), var(--aa-input-background-color-alpha));
     border: 1px solid rgba(128, 126, 163, 0.8);
     border: 1px solid rgba(var(--aa-input-border-color-rgb), var(--aa-input-border-color-alpha));
+    border-right:none;
+    border-left:none;
     border-radius: 3px;
     color: rgba(128, 126, 163, 0.6);
     color: rgba(var(--aa-muted-color-rgb), var(--aa-muted-color-alpha));
