@@ -746,7 +746,7 @@ body[data-theme="dark"] {
 .aa-DetachedSearchButton {
     align-items: center;
     background-color: #fff;
-    background-color: rgba(var(--aa-input-background-color-rgb), var(--aa-input-background-color-alpha));
+    background-color: transparent;
     border: 1px solid rgba(128, 126, 163, 0.8);
     border: 1px solid rgba(var(--aa-input-border-color-rgb), var(--aa-input-border-color-alpha));
     border-right:none;
@@ -770,8 +770,6 @@ body[data-theme="dark"] {
     width: 100%;
 }
 .aa-DetachedSearchButton:focus {
-    border-color: #3e34d3;
-    border-color: rgba(var(--aa-primary-color-rgb), 1);
     box-shadow: 0 0 0 3px rgba(62, 52, 211, 0.2), inset 0 0 0 2px rgba(62, 52, 211, 0.2);
     box-shadow: rgba(var(--aa-primary-color-rgb), var(--aa-primary-color-alpha)) 0 0 0 3px, inset rgba(var(--aa-primary-color-rgb), var(--aa-primary-color-alpha)) 0 0 0 2px;
     outline: medium none currentColor;
